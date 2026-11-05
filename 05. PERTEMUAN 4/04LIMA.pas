@@ -1,0 +1,34 @@
+program lima;
+uses crt;
+
+label a, b, c, d, e, f, g, h, i;
+
+begin
+    goto f;
+
+    d: write('Ilmu');
+    goto h;
+
+    b: write('jurusan');
+    goto d;
+
+    c: write('Sumatera');
+    goto g;
+
+    a: write('Mahasiswa');
+    goto b;
+
+    e: write('Universitas');
+    goto c;
+
+    f: write('Saya');
+    goto a;
+
+    g: write('Utara');
+    goto i;
+
+    h: write('Komputer');
+    goto e;
+    
+    i:
+end.

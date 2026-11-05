@@ -1,0 +1,17 @@
+program dua;
+uses crt;
+
+procedure nama(teks : string);
+begin
+    write('nama kamu adalah : ', teks);
+end;
+
+var a : string;
+
+begin
+    clrscr;
+    write('masukkan nama : ');
+    readln(a);
+    nama(a);
+    readln;
+end.
